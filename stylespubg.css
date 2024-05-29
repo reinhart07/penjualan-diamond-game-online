@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('pubg.jpeg');
+    background-size: auto;
+    background-position: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Menambahkan warna latar belakang dengan transparansi */
+}
+
+section {
+    margin-bottom: 1em;
+}
+
+#instructions {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1em; /* Memberikan ruang di bawah instruksi */
+}
+
+#instructions p {
+    margin: 0; /* Menghilangkan margin bawaan pada paragraf */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.backButton {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 41%;
+}
+
+.backButton:hover {
+    background-color: #0b7dda;
+}

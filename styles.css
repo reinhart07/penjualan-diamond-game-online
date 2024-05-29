@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('ml.jpeg');
+    background-size: 50%;
+    background-position: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#instructions {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1em; /* Memberikan ruang di bawah instruksi */
+}
+
+#instructions p {
+    margin: 0; /* Menghilangkan margin bawaan pada paragraf */
+}
+
+#logoSection {
+    text-align: center;
+}
+
+#logoLink {
+    display: inline-block;
+}
+
+#logo {
+    width: 250px;
+    height: auto;
+}
+
+#logoSectionFF {
+    text-align: center;
+}
+
+#logoLinkFF {
+    display: inline-block;
+}
+
+#logoFF {
+    width: 250px;
+    height: auto;
+}
+
+#logoSectionPubg {
+    text-align: center;
+}
+
+#logoLinkPubg {
+    display: inline-block;
+}
+
+#logoPUBG {
+    width: 250px;
+    height: auto;
+}
